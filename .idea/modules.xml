@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/mars_customer_api.iml" filepath="$PROJECT_DIR$/.idea/mars_customer_api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../mars_customer_center/.idea/mars_customer_center.iml" filepath="$PROJECT_DIR$/../mars_customer_center/.idea/mars_customer_center.iml" />
     </modules>
   </component>
 </project>

@@ -15,5 +15,5 @@ def health(request):
 @require_GET
 def get_customer_info(request):
     id = request.GET['id']
-    return HttpResponse(serializers.serialize("json", Customer.objects.get(id=id)),
+    return HttpResponse(serializers.serialize("json", Customer.objects.filter(id=id)),
                         content_type="application/json")
